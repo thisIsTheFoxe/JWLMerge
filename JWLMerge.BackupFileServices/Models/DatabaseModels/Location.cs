@@ -49,8 +49,8 @@
         /// The type. 
         /// 0 = standard location entry
         /// 1 = reference to a publication (see Bookmark.PublicationLocationId)
-        /// 2 = ?
-        /// 3 = ?
+        /// 2 = reference to a audio publication (like sjjm)
+        /// 3 = reference to a video publication (like jwb)
         /// </summary>
         public int Type { get; set; }
 
